@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    background: #66ccdc;
+    color: black;
+    width: 100vw;
+    height: 100%;
+    
+}
+
+header {
+    display: inline;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    background: #ffff9f;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background: #ffff9f;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+    color: black;
+}
+
+main {
+    
+    padding: 10px 10vw;
+    width: 80vw;
+    
+    margin: 0;
+}
+
+article {
+    padding: 20px 0;
+}
+
+footer {
+    background: #ffff9f;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.bottomFooter {
+    background: #ffff9f;
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.line {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.halfBox {
+    width: 40%;
+    min-width: 100px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 30px;
+    color: black;
+    text-align: center;
+    background: #ffff9f;
+}
+
+.halfImg {
+    width: 90%;
+    min-width: 100px;
+    height: auto;
+}
+
+.thirdBox {
+    width: 30%;
+    min-width: 100px;
+    height: auto;
+    border: 1px solid black;
+    margin: 20px;
+    color: black;
+    text-align: center;    
+    background: #ffff9f;
+}
+
+.thirdImg {
+    width: 100%;
+    
+    height: 100%;
+}
+
+.fullBox {
+    display: block;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border: 1px black solid;
+    color: black;
+    background: #ffff9f;
+}
+
+.fullHead {
+    width: 100vw;
+    display: flex;
+    height: 100px;
+    color: black;
+    background: #ffff9f;
+    border: 1px solid black;
+    justify-content: left;
+}
+
+#inquires {
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 30px;
+    color: black;
+    text-align: center;
+    background: #ffff9f;
+}
+
+.larbut {
+    position: relative;
+    bottom: 5px;
+    width: 40%;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.forms {
+    width: 90%;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+/*Assistance with creating and troubleshooting media queries: chatgpt.com, URL: [chatgpt.com](https://chatgpt.com/share/67e1dd2c-6200-800d-9c1a-4f9c58ab6d1c), Date accessed: 24 March 2025
+
+Assitance with creating media queries from: W3schools, URL: [w3schools.com](https://www.w3schools.com/css/css_rwd_mediaqueries.asp), Date accessed: 24 March 2025*/
+
+@media (max-width: 941px) {
+    
+    main {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .halfBox {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #inquires {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    article {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 450px) {
+    .thirdBox {
+        width: 80%; 
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
